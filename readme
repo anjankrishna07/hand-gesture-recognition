@@ -1,0 +1,20 @@
+With code, we are providing the saved model to evaluate the model
+
+To evaluate the model
+
+1. run the run.ipynb file you will get the accuracy, precision, recall, f1 score of the model, it will take 2-3 minutes to run
+
+there is a cell where we try to integrate model with camera in run.ipynb
+
+we also provided the other models that we tried to run, just to show the effort that we put into this project.
+
+In the main file coding.ipynb doesn't run the file, since it starts training again and all the weights get changed it also takes a lot of time
+
+description of coding file
+
+leapgestrecog-preprocessed dataset
+coding.ipynb-main code
+run.ipynb - code to evaluate the model
+model.pth - weight file to evaluate model
+preprocessing.ipynb - code for creating the main sub directories
+OTHER_MODELS_NOT_PART_OF_MAIN_CODE - this folder contains vgg16 and resnet10 models that we tried to run, just put them as reference that we tried other models too, but alexnet suited to our computational resources
